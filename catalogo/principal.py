@@ -8,10 +8,19 @@ app = Flask(__name__)
 def principal():
     fabricas = [FabricaHumanos(), FabricaOrcos(), FabricaElfos()]
     fabrica = choice(fabricas)
+    print(type(fabrica))
+    if type(fabrica) == FabricaHumanos:
+        decorador = DecoradorHumanos(fabrica)
+    if type(fabrica) == FabricaOrcos:
+        decorador = DecoradorOrcos(fabrica)
+    if type(fabrica) == FabricaElfos:
+        decorador = DecoradorElfos(fabrica)
+
+
     arma = fabrica.crear_arma()
     escudo = fabrica.crear_escudo()
-    cuerpo = fabrica.crear_cuerpo()
-    montura = fabrica.crear_montura()
+    cuerpo = decorador.crear_cuerpo()
+    montura = decorador.crear_montura()
 
     productos = []
 
