@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <row>
+        <marca>AMD</marca>
+        <partes>
+            <memoria>250GB</memoria>
+            <procesador>RYZEN 3</procesador>
+            <board>B-450</board>
+        </partes>
+    </row>
+    <row>
+        <marca>INTEL</marca>
+        <partes>
+            <memoria>500GB</memoria>
+            <procesador>I7</procesador>
+            <board>I-650</board>
+        </partes>
+    </row>
+    <row>
+        <marca>ALIEN</marca>
+        <partes>
+            <memoria>1TB</memoria>
+            <procesador>RYZEN 7</procesador>
+            <board>A-980</board>
+        </partes>
+    </row>
+</root>

@@ -1,0 +1,26 @@
+[
+    {
+        "marca": "AMD",
+        "partes": {
+            "memoria": "250GB",
+            "procesador": "RYZEN 3",
+            "board": "B-450"
+        }
+    },
+    {
+        "marca": "INTEL",
+        "partes": {
+            "memoria": "500GB",
+            "procesador": "I7",
+            "board": "I-650"
+        }
+    },
+    {
+        "marca": "ALIEN",
+        "partes": {
+            "memoria": "1TB",
+            "procesador": "RYZEN 7",
+            "board": "A-980"
+        }
+    }
+]
