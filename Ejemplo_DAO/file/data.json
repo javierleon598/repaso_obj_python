@@ -1,6 +1,9 @@
 [
     {
-        "marca": "AMD",
+        "computador": {
+            "marca": "AMD",
+            "descripcion": "Pc AMD Gaming"
+        },
         "partes": {
             "memoria": "250GB",
             "procesador": "RYZEN 3",
@@ -8,7 +11,10 @@
         }
     },
     {
-        "marca": "INTEL",
+        "computador": {
+            "marca": "INTEL",
+            "descripcion": "Pc INTEL Gaming"
+        },
         "partes": {
             "memoria": "500GB",
             "procesador": "I7",
@@ -16,7 +22,10 @@
         }
     },
     {
-        "marca": "ALIEN",
+        "computador": {
+            "marca": "ALIEN",
+            "descripcion": "Pc ALIEN Gaming"
+        },
         "partes": {
             "memoria": "1TB",
             "procesador": "RYZEN 7",
